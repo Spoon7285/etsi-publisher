@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connected</title><link rel="stylesheet" href="style.css"></head><body>
+<h1>TikTok account connected</h1><p id="m">Reading authorisation…</p>
+<script>const p=new URLSearchParams(location.search);const c=p.get('code');document.getElementById('m').textContent=c?'Authorisation received. EtSi Publisher on the owner\'s computer will now finish the connection; you can close this page.':'No authorisation code ('+(p.get('error_description')||p.get('error')||'unknown')+').';</script>
+</body></html>
